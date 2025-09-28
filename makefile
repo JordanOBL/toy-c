@@ -3,6 +3,8 @@ SRC=main.c bad.c
 
 BIN=app
 
+.SILENT:
+
 all: $(BIN)
 
 $(BIN): $(SRC)
