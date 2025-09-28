@@ -6,7 +6,7 @@ BIN=app
 all: $(BIN)
 
 $(BIN): $(SRC)
-	$(CC) -o $(BIN) $(SRC)
+	$(CC) -o $(BIN) $(SRC) --silent
 
 clean:
 	rm -f $(BIN)
