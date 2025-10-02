@@ -2,5 +2,5 @@
 
 int broken() {
     printf("I am broken!\n")  // ❌ missing semicolon at end
-    return 0
+    return 0;
 }
